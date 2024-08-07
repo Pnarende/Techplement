@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    background-color: #f0e9e9;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    position: fixed;
+    width: 96%;
+    background: #333;
+    color: #fff;
+    top:0;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+    text-align: center;
+    display: flex;
+    padding-right: 60px;
+   
+    
+}
+.cname{
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 15px;
+   display: flex;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    color: #090911;
+    color: hsl(0, 21%, 95%);
+    padding: 100px 0;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 150px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+   padding-bottom: 25px;
+    position: fixed;
+    height: 25px;
+    width: 100%;
+    bottom: 0px;
+   
+}
+.heading{
+    font-size: xx-large;
+    font-family:sans-serif;
+    color: #333;
+}
+ .course-card{
+    text-align: center;
+    font-size: 25px;;
+    font-weight: 100;
+    text-align: center;
+    font-family:sans-serif;
+   
+    font-display: fallback;
+    margin-top: 200px;
+}
+input[type="submit"] {
+    width: 15%;
+    padding: 12px;
+    background-color:hwb(253 39% 38%);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 50px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: hwb(244 26% 51%);
+  }  

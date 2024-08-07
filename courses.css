@@ -1,0 +1,545 @@
+body {
+   
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(127, 121, 121);
+    height: 2000px;
+}
+  
+
+header {
+    margin-top: 0px;
+   background-color: #333;
+    color: white;
+    text-align: center;
+    padding-top: 0px;
+    top:0;
+    position: fixed;
+    height: 136px;
+    width: 100%;
+    z-index: 1000;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.banner h1 {
+    margin-bottom: 10px;
+}
+
+.banner p {
+    margin-bottom: 10px;
+}
+
+.banner h2 {
+    color: #090911;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.courses {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.course-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px auto; 
+    padding: 0px;
+    display: inline-block;
+    height: 600px;
+    width: 500px;
+    text-align: center; 
+    vertical-align: top;
+}
+
+.course-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px; 
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+   padding-bottom: 25px;
+    position: fixed;
+    height: 25px;
+    width: 100%;
+    bottom: 0px;
+   
+}
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .search-container {
+    margin: 20px;
+  }
+  
+  #searchInput {
+    margin-top: 115px;
+    border-radius: 10px;
+    border-color: none;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  #itemList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #itemList li{
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+ h10{
+    margin-left: 525px;
+    margin-top: 150px;
+    position:fixed;
+    text-align: center;
+    font-size:xx-large;
+    
+  }
+.box1 {
+    background: white;
+    border-radius: 8px;
+    gap:0px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    width: 300px;
+    
+    vertical-align: top;
+    margin-left: 50px;
+    margin-top: 300px;
+}
+.box1 img {
+    cursor: pointer;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.box1 h1 {
+    margin-top: 15px;
+}
+
+.box1 button {
+    margin-left:80px;
+    background-color: #333;
+    color: white;
+    border: none;
+    
+    float: right;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.banner{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 30px
+    
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+   
+    margin-left: 30px
+    
+   
+}
+
+.box2{
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    margin-left: 50px;
+    margin-top: 300px;
+}
+.box2 img {
+    cursor: pointer;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.box2 h2 {
+    margin-top: 15px;
+}
+.box2 button {
+    margin-left:80px;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.banner{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 30px
+    
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+   
+    margin-left: 30px
+    
+   
+}
+
+
+.box3{
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    margin-left: 50px;
+    margin-top: 300px;
+}
+.box3 img {
+    cursor: pointer;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.box3 h3 {
+    margin-top: 15px;
+}
+.box3 button {
+    margin-left:80px;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.banner{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 30px
+    
+}
+h3{
+    font-size: 30px;
+    text-align: center;
+  
+    margin-left: 30px
+    
+   
+}
+.box4{
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    margin-left: 50px;
+    
+}
+.box4 img {
+    cursor: pointer;
+    max-width: 89%;
+    border-radius: 8px;
+}
+
+.box4 h4 {
+    margin-top: 15px;
+}
+.box4 button {
+    margin-left:80px;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.banner{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 30px
+    
+}
+h4{
+    font-size: 30px;
+    text-align: center;
+   
+    margin-left: 30px
+    
+   
+}
+.box5{
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    margin-left: 50px;
+}
+.box5 img {
+    cursor: pointer;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.box5 h5 {
+    margin-top: 15px;
+}
+.box5 button {
+    margin-left:80px;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.banner{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 30px
+    
+}
+h5{
+    font-size: 30px;
+    text-align: center;
+   
+    margin-left: 30px
+    
+   
+}
+.box6{
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    margin-left: 50px;
+}
+.box6 img {
+    cursor: pointer;
+    max-width: 68%;
+    border-radius: 8px;
+}
+
+.box6 h6 {
+    margin-top: 15px;
+}
+.box6 button {
+    margin-left:80px;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.banner{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 30px
+    
+}
+h6{
+    font-size: 30px;
+    text-align: center;
+   
+    margin-left: 30px
+    
+   
+}
+
+.box7{
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    margin-left: 50px;
+}
+.box7 img {
+    cursor: pointer;
+    display: list-item;
+    height: 235px;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.box7 h7 {
+    margin-top: 15px;
+}
+.box7 button {
+    margin-left:80px;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.banner{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 30px
+    
+}
+h7{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    margin-left: 30px
+    
+   
+}
+.box8{
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    height: 378px;
+    width: 300px;
+    vertical-align: top;
+    margin-left: 50px;
+}
+.box8 img {
+    display: list-item;
+    
+    max-width: 68%;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.box8 h8 {
+    text-align: center;
+    
+    margin-top: 15px;
+}
+.box8 button {
+    margin-left:80px;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.banner{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 30px
+    
+}
+h8{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    margin-left: 60px
+    
+   
+}
+.box9{
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    height: 380px;
+    width: 300px;
+    vertical-align: top;
+    margin-left: 50px;
+}
+.box9 img {
+    cursor: pointer;
+    height: 235px;
+    width:295px;
+    border-radius: 8px;
+}
+
+.box9 h9 {
+    margin-top: 15px;
+}
+.box9 button {
+    margin-left:80px;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.banner{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 30px
+    
+}
+h9{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+   
+    margin-left: 30px
+ }
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+   padding-bottom: 25px;
+    position: fixed;
+    height: 25px;
+    width: 100%;
+    bottom: 0px;
+}

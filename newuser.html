@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Course Platform</title>
+    <link rel="stylesheet" href="signup.css">
+    <style>
+        
+        .auth-buttons {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            padding-top: 30px;
+        }
+
+        .auth-buttons a {
+           
+            text-decoration: none;
+           
+            padding: 10px 20px;
+           
+            color: #fff;
+            background-color: hwb(213 17% 46%);
+        }
+
+        .auth-buttons a:hover {
+            background-color: hwb(210 2% 91%);
+        }
+
+        header {
+           position:absolute
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="cname">EduVista</a></h1>
+        <div class="container">
+            <h1>Learn with Us </a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses2.html">Courses</a></li>
+                    <li><a href="about.html">Aout Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="auth-buttons">
+            <a href="index.html">Login</a>
+            <a href="newuser.html">Sign Up</a>
+        </div>
+    </header>
+    
+    <main>
+        <div class="course-card">
+            <h2 class="heading">Sign Up and Start Learning</h2>
+            <form action="/SignUp" method="post">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br><br>
+
+                <input type="submit" value="Sign Up"><br><br>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Learn with Us. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

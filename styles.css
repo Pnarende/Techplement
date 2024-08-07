@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(125, 124, 124);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    position: fixed;
+    width: 100%;
+    background: #333;
+    color: #fff;
+    top:0;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+    text-align: center;
+    display: flex;
+    padding-right: 60px;
+   
+    
+}
+.cname{
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 15px;
+   display: flex;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    color: #090911;
+    color: #333;
+    padding: 100px 0;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 150px;
+}
+
+.banner h1 {
+    margin-bottom: 10px;
+}
+
+.banner p {
+    margin-bottom: 10px;
+}
+
+.banner h2 {
+    color: #090911;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.courses {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.course-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px auto; 
+    padding: 0px;
+    display: inline-block;
+    height: 600px;
+    width: 500px;
+    text-align: center; 
+    vertical-align: top;
+}
+
+.course-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px; 
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+   padding-bottom: 25px;
+    position: fixed;
+    height: 25px;
+    width: 100%;
+    bottom: 0px;
+   
+}

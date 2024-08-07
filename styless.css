@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: #333;
+    color: #fff;
+    top:0;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+    text-align: center;
+    display: flex;
+    padding-right: 60px;
+}
+.cname{
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 15px;
+   display: flex;
+}
+
+nav.first ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav.first ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav.first ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+h1 {
+    margin-top: 0px; /* Adjust margin to make room for fixed elements */
+    
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+.content {
+    background: #fff;
+    padding: 30px;
+    margin-top: 180px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1, h2, h3, p {
+    margin: 0 0 20px 0;
+}
+.team {
+    display: flex;
+    justify-content: space-between;
+}
+.team-member {
+    flex-basis: 30%;
+    background: #eaeaea;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+footer {
+    
+    text-align: center;
+    padding: 50px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+    
+}
